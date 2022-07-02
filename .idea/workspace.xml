@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="SCOPE_TYPE" value="10" />
+    <option name="CUSTOM_SCOPE_NAME" value="Recently Viewed Files" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b4744c1-2d59-4ade-8312-42e99e6330b1" name="Changes" comment="acesta este un comit pentru &quot;Prima Aplicatie3&quot;">
+    <list default="true" id="0b4744c1-2d59-4ade-8312-42e99e6330b1" name="Changes" comment="comentarii javaDoc1">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/PrimaAplicatie3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PrimaAplicatie3.java" afterDir="false" />
     </list>
@@ -34,12 +41,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "inlay.hints"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="PrimaAplicatie3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="PrimaAplicatie3" />
@@ -101,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="acesta este un comit pentru &quot;Prima Aplicatie3&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="acesta este un comit pentru &quot;Prima Aplicatie3&quot;" />
+    <MESSAGE value="comentarii javaDoc" />
+    <option name="LAST_COMMIT_MESSAGE" value="comentarii javaDoc" />
   </component>
 </project>

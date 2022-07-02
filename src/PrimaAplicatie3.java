@@ -1,10 +1,12 @@
-public class PrimaAplicatie3 {
-    /*
-    aici este un exemplu de comentariu pe mai multe linii
-     */
 
-    public static void main(/*poti pune si aici comentarii dar este incomod de citit codul*/String[] args) {
-        //aceasta este o linie de code care afiseaza ceva
+public class PrimaAplicatie3 {
+    /**
+     *acesta este un javaDoc
+     *acesta este un javaDoc
+     *@param args argument pentru args
+      * @author Macarici Oleg
+     */
+    public static void main(String[] args) {
 
         System.out.println("salut incerc sa invat java ");
     }
