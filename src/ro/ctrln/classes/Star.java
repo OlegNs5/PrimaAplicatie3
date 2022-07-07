@@ -10,13 +10,22 @@ public class Star {
 
     public Star(){}
                                          //acesta este un costructor (obiect)
-    public Star(String StarDiscription,int diameter,int satellites,BigDecimal mass){
+   /* public Star(String StarDiscription,int diameter,int satellites,BigDecimal mass){
         this.StarDiscription=StarDiscription;
         this.diameter=diameter;
         this.satellites=satellites;
         this.mass=mass;
     }
-                                         //acestea sunt metode "get"
+    */
+
+    public Star(String starDiscription, int diameter, int satellites, BigDecimal mass) {
+        StarDiscription = starDiscription;
+        this.diameter = diameter;
+        this.satellites = satellites;
+        this.mass = mass;
+    }
+
+    //acestea sunt metode "get"
     public String getStarDiscription() {
         return StarDiscription;
     }
