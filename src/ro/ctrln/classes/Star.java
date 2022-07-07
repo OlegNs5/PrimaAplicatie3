@@ -9,48 +9,40 @@ public class Star {
     private BigDecimal mass;
 
     public Star(){}
-                                         //acesta este un costructor (obiect)
-   /* public Star(String StarDiscription,int diameter,int satellites,BigDecimal mass){
-        this.StarDiscription=StarDiscription;
-        this.diameter=diameter;
-        this.satellites=satellites;
-        this.mass=mass;
-    }
-    */
-
+                         //generare constructor din Alt+Insert sau meniul "Code"
     public Star(String starDiscription, int diameter, int satellites, BigDecimal mass) {
         StarDiscription = starDiscription;
         this.diameter = diameter;
         this.satellites = satellites;
         this.mass = mass;
     }
-
-    //acestea sunt metode "get"
+                        //generare get si set din Alt+Insert sau din  meniul
     public String getStarDiscription() {
         return StarDiscription;
     }
-    public int getDiameter() {
-        return diameter;
-    }
-    public int getSatellites() {
-        return satellites;
-    }
-
-    public BigDecimal getMass() {
-        return mass;
-    }
-                                        //metodele tip 'set'
 
     public void setStarDiscription(String StarDiscription) {
         this.StarDiscription = StarDiscription;
+    }
+
+    public int getDiameter() {
+        return diameter;
     }
 
     public void setDiameter(int diameter) {
         this.diameter = diameter;
     }
 
+    public int getSatellites() {
+        return satellites;
+    }
+
     public void setSatellites(int satellites) {
         this.satellites = satellites;
+    }
+
+    public BigDecimal getMass() {
+        return mass;
     }
 
     public void setMass(BigDecimal mass) {
