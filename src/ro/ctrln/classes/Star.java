@@ -14,7 +14,7 @@ public static final boolean MIKYWAYSTAR = true; //declararea constantelor in jav
     public Star(){}
                          //generare constructor din Alt+Insert sau meniul "Code"
     public Star(String starDiscription, int diameter, int satellites, BigDecimal mass) {
-        StarDiscription = starDiscription;
+        this.StarDiscription = starDiscription;
         this.diameter = diameter;
         this.satellites = satellites;
         this.mass = mass;
@@ -61,7 +61,19 @@ public static final boolean MIKYWAYSTAR = true; //declararea constantelor in jav
         this.planetNane = planetNane; //variabila de instanta
     }
 
+    public String computePlanetLocation (smallPlanet Samallplanet,int location){
+        String planetLocation = this.StarDiscription + Samallplanet.getplanetNane() + location;
+                return planetLocation;
+    }
+
+
+
     class smallPlanet{
         private String planetNane;
+       // private String marte;
+
+        private String getplanetNane() {
+            return this.planetNane;
+        }
     }
 }
